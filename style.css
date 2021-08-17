@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background: #000000
+}
+
+.img-xware {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.loginbox {
+  margin-left: 33%;
+  height: 350px;
+  width: 400px;
+  margin-top: 80px;
+  padding: 50px 20px 40px 20px;
+	background: #fff;
+	border-radius: 10px;
+ 
+}
+
+ul.keyboard {
+  list-style-type: none;
+  font-family: verdana;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.cardnumberinput {
+  height: 50px;
+  border: 0px;
+  background-color: #d1d2d4;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.passinput {
+  height: 50px;
+  border: 0px;
+  background-color: #d1d2d4;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.loginbutton {
+  margin-top: 20px;
+  background-color: #10759d;
+  border-radius: 8px;
+  height: 50px;
+  border: 0px;
+}
+
+.boxkeyboard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.040);
+}
+
+.keyboard li {
+  cursor: pointer;
+  display: inline;
+  float: left;
+  height: 18%;
+ /** margin: auto; **/
+  line-height: 50px;
+  padding: 0;
+  margin: 0.3% 0.6% 0.6% 0.2%;
+  background-color: #ddd;
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1vw;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.char {
+  width: 5.75%;
+  -webkit-transition: background-color 100ms;
+}
+
+.tab {
+  width: 20%;
+}
+
+.at {
+  width: 7.2%;
+}
+
+.last {
+  margin-right: 0%;
+}
+
+.backspace {
+  width: 14%;
+}
+
+.capslock {
+  width: 12%;
+}
+
+.capslock.on {
+  background-color: #CA4200;
+}
+
+.return {
+  width: 14%;
+}
+
+.shift {
+  width: 7.2%;
+}
+
+.last {
+  margin-right: 0;
+}
+
+.space {
+  width: 99%;
+}
+
+.keyboard .touch {
+  background-color: #CA4200;
+}
